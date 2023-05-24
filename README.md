@@ -53,3 +53,25 @@ Normas que determinam como o cabeamento deve ser feito:
 
 O rack é um armário utilizado para hospedar os equipamentos de hardware, como switches, roteadores e fibras ópticas, e para organizar os cabos em patch panels. Ele desempenha um papel essencial em data centers e infraestruturas de redes.
 
+
+## Modelo OSI
+
+<p>
+O modelo OSI (Open Systems Interconnection) é um modelo de referência que descreve como os sistemas de rede se comunicam entre si. Ele é dividido em sete camadas, cada uma com funções específicas. A comunicação no modelo OSI ocorre da seguinte forma:
+</p>
+
+1. **Camada Física:** Lida com a transmissão física dos dados, convertendo-os em sinais elétricos, de luz ou de rádio.
+
+2. **Camada de Enlace:** Responsável pela transferência confiável de dados entre nós adjacentes na rede. Detecta e corrige erros que podem ocorrer na camada física.
+
+3. **Camada de Rede:** Lida com o roteamento dos pacotes de dados pela rede, determinando o melhor caminho para a entrega correta dos dados.
+
+4. **Camada de Transporte:** Fornecer serviços de comunicação fim a fim, garantindo a entrega correta e ordenada dos dados.
+
+5. **Camada de Sessão:** Estabelece, gerencia e encerra as sessões de comunicação entre aplicativos em diferentes dispositivos.
+
+6. **Camada de Apresentação:** Lida com a representação dos dados, garantindo que sejam compreensíveis pelo destinatário.
+
+7. **Camada de Aplicação:** Fornece interfaces para que os aplicativos acessem a rede e interajam com os usuários.
+
+No modelo OSI, a conexão pode ser estabelecida tanto de baixo para cima (da camada física à camada de aplicação) quanto de cima para baixo (da camada de aplicação à camada física). Isso ocorre por meio do encapsulamento dos dados em cada camada conforme eles são transmitidos pela rede.
