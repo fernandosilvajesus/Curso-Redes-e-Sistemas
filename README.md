@@ -75,3 +75,17 @@ O modelo OSI (Open Systems Interconnection) é um modelo de referência que desc
 7. **Camada de Aplicação:** Fornece interfaces para que os aplicativos acessem a rede e interajam com os usuários.
 
 No modelo OSI, a conexão pode ser estabelecida tanto de baixo para cima (da camada física à camada de aplicação) quanto de cima para baixo (da camada de aplicação à camada física). Isso ocorre por meio do encapsulamento dos dados em cada camada conforme eles são transmitidos pela rede.
+
+
+# TCP/IP
+
+O TCP/IP (Transmission Control Protocol/Internet Protocol) é um conjunto de protocolos que define a forma como a comunicação ocorre na Internet. Ele é baseado em quatro camadas principais:
+
+- **Camada de Interface de Rede**: Lida com a transmissão física dos dados, semelhante à camada física no modelo OSI.
+- **Camada de Internet**: Equivalente à camada de rede no modelo OSI. Realiza o roteamento dos pacotes na rede.
+- **Camada de Transporte**: Corresponde à camada de transporte no modelo OSI. Fornece serviços de comunicação fim a fim, garantindo a entrega correta dos dados.
+- **Camada de Aplicação**: Combina as camadas de sessão, apresentação e aplicação do modelo OSI. Fornece serviços de comunicação de alto nível para os aplicativos na rede.
+
+O TCP/IP é amplamente utilizado na comunicação em redes de computadores, especialmente na Internet. Ele fornece um conjunto de protocolos robustos e escaláveis para transmitir dados de forma confiável e eficiente.
+
+Em comparação com o modelo OSI, o TCP/IP tem uma abordagem mais simplificada, mas ainda oferece funcionalidades essenciais para a comunicação em rede.
