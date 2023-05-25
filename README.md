@@ -89,3 +89,22 @@ O TCP/IP (Transmission Control Protocol/Internet Protocol) é um conjunto de pro
 O TCP/IP é amplamente utilizado na comunicação em redes de computadores, especialmente na Internet. Ele fornece um conjunto de protocolos robustos e escaláveis para transmitir dados de forma confiável e eficiente.
 
 Em comparação com o modelo OSI, o TCP/IP tem uma abordagem mais simplificada, mas ainda oferece funcionalidades essenciais para a comunicação em rede.
+
+
+## IPv4 e IPv6
+
+O IP (Internet Protocol) é o protocolo responsável pelo endereçamento dos pacotes de rede na camada 3 do modelo OSI. Ele gera um endereço para o seu computador ou servidor quando está conectado à Internet. Existem atualmente dois formatos principais:
+
+### IPv4
+
+O IPv4 é o formato mais comum de endereço IP. É representado por quatro conjuntos de números separados por pontos, como por exemplo: 192.168.0.1. Cada conjunto de números, também chamado de octeto, pode variar de 0 a 255. O IPv4 possui um espaço de endereçamento de 32 bits, o que permite aproximadamente 4 bilhões (ou 4 milhões de conexões) de endereços únicos.
+
+### IPv6
+
+O IPv6 é um formato de endereço IP mais recente e foi desenvolvido para superar a limitação de endereços do IPv4. Ele é representado por oito conjuntos de quatro dígitos hexadecimais, separados por dois pontos, como por exemplo: 2001:db8:3333:4444:5555:6666:7777:8888. Cada conjunto de quatro dígitos hexadecimais corresponde a 16 bits, totalizando 128 bits de espaço de endereçamento. Isso permite um número extremamente grande de endereços, aproximadamente 1 decilhão (ou 1 trilhão de bilhões) de conexões únicas.
+
+## NAT (Network Address Translation)
+
+O NAT é uma função utilizada em roteadores que permite a tradução de endereços IP entre uma rede local (privada) e a Internet. Ele funciona permitindo que conexões sejam feitas da rede privada para recursos na Internet. Por exemplo, um cliente da rede local acessando um servidor de FTP na Internet. Nesse caso, o cliente estabelece uma conexão com o servidor FTP usando um programa cliente, e o roteador realiza a tradução de endereços IP para permitir a comunicação.
+
+
